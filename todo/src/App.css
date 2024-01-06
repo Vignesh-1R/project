@@ -1,0 +1,74 @@
+html{
+  background-color: rgb(255, 198, 133);
+
+}
+.firstButton {
+ border-radius: 20px;
+}
+
+.heading{
+  align-items: center;
+
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.App {
+  text-align: center;
+  
+}
+
+.completed {
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(211, 69, 69);
+}
+.completed2 {
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(16, 54, 16);
+}
+
+input {
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+
+}
+
+button {
+  background-color: rgb(143, 192, 224) ;
+  border-radius: 100px;
+  width: 100px;
+  height: 40px;
+}
+button:hover{
+  cursor: copy;
+  background-color: rgb(245, 146, 146);
+  opacity: 10px;
+}
+ul{
+  display: grid;
+  place-items: center;
+}
+li{
+  list-style-type: none;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  font-family: fantasy;
+  font-size: 20px;
+}
+#task{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
